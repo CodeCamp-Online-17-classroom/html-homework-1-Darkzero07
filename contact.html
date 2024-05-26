@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 8px;
+            }
+
+            label {
+                margin: 8px 0 0 16px;
+            }
+
+            input {
+                margin: 2px 0 8px 8px;
+                border-radius: 4px;
+            }
+
+            button {
+                margin-left: 8px;
+            }
+
+            .box {
+                padding: 4px 16px 16px 8px;
+                border: 0.5px solid blue;
+                border-radius: 8px;
+                width: fit-content;
+            }  
+
+            .select {
+                margin:2px 0 8px 8px; ;
+                outline: none;
+                width: 406px;
+                height: 38px;
+                line-height: 32px;
+                border-radius: 4px;
+            }         
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <a href="./index.html">Home</a>
+            <a href="./education.html">Education</a>
+            <a href="./work.html">Work Rxperience</a>
+            <a href="./contact.html">Contact Me</a>
+        </ul>
+        <h1>Contact Me</h1>
+        <div class="box">
+            <h3>Enter your info...</h3>
+            <label>Your Name</label><br>
+            <input type="text" style=" width:400px; height: 32px; "><br>
+            <label>Your E-mail</label><br>
+            <input type="text" style=" width:400px; height: 32px; "><br>
+            <label>Gender</label><br>
+            <!-- <input type="text" placeholder="Select..." style=" width:400px; height: 32px; "><br> -->
+            <select class="select">
+                <option value="">Select...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label>Message</label><br>
+            <input type="text" style=" width:400px; height: 128px; "><br>
+            <button>send</button>
+            <button>Clear</button>
+
+        </div>
+
+    </body>
+
+</html>
